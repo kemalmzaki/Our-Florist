@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+
+.top-wrapper {
+  padding: 250px 0 250px 0;
+  background-image: url(https://images.unsplash.com/photo-1589244159943-460088ed5c92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=890&q=80);
+  color: white;
+  text-align: center;
+  background-size: cover;
+  }
+
+  .content-wrapper{
+    Position: relative
+    }
+     
+  .content-wrapper::before{
+    content: "";
+    background-image: url(https://images.unsplash.com/photo-1551468307-8c1e3c78013c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    }
+
+nav {
+  display: grid;
+  width: 100%;
+  background-color: rgb(250,128,114,0.6);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  grid-template-columns: auto auto;
+  }
+
+.kiri {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.kanan {
+  display: grid;
+  padding-left: 10%; 
+  grid-template-columns: auto auto auto auto 20%;
+  line-height: 65px;
+  text-align: center;
+}
+
+a  {
+  text-decoration: none;
+  color: white;
+  background-color: none;
+  transition: all 0.5s;
+}
+
+.login {
+  background-color: rgba(255, 255, 255, 0.3);
+  float: right;
+  transition: all 0.5s;
+  line-height: 65px;
+  padding: 0 25px;
+  display: block;
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.kanan>.login{
+    color: white;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  }
+
+  .top-wrapper h4 {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 30px;
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.content-wrapper{
+  height: 500px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.heading1{
+  padding-top: 60px;
+  color: indianred;
+}
+
+.heading2{
+  padding-bottom: 30px;
+  color: indianred;
+}
+
+.p {
+  color: indianred;
+}
