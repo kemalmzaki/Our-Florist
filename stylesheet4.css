@@ -223,3 +223,20 @@ a:hover {
 .item h2{
   margin: 5px 0;
 }
+
+/*kemal*/
+
+.about{
+  display:grid;
+  height : 500px;
+  grid-template-rows: 10% auto;
+}
+
+.about>.atas{
+  text-align: center;
+}
+
+.about>.bawah{
+  display:grid;
+  grid-template-columns: 50% auto;
+}
