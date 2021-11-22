@@ -113,9 +113,21 @@ a:hover {
 }
 
 /*di bawah ini css si siril*/
-.contact-wrapper{
-  background-image: url(https://images.unsplash.com/photo-1551468307-8c1e3c78013c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+.contact-wrapper::before {    
+  content: "";
+  background-image: url('https://images.unsplash.com/photo-1551468307-8c1e3c78013c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80');
   background-size: cover;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+
+.contact-wrapper{
+  position: relative;
 }
 
 .banner{
