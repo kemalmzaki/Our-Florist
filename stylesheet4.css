@@ -130,6 +130,48 @@ nav a:hover {
   border-bottom: 3px dashed rgb(206, 51, 51);
  }
 
+ .content-sasa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 50px;
+}
+
+.content-a {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.content-b {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.content-c {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+
+.tulisan-a {
+  margin-left: 20px;
+  text-align: start;
+  color: indianred;
+}
+.tulisan-b {
+  margin-left: 20px;
+  text-align: start;
+  color: indianred;
+}
+.tulisan-c {
+  margin-left: 20px;
+  text-align: start;
+  color: indianred;
+}
+
 .heading2>.content-gambar{
  display: flex;
  padding-top: 40px;
